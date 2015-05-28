@@ -1,0 +1,44 @@
+html{
+    background: url(img/fondo.jpg) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+}
+.letras {
+    position:absolute;
+    left: 0px; 
+    top: 0px; 
+    border: 2px; 
+    border-style: double; 
+    margin: 5px; 
+    padding: 5px; 
+    color:#000; 
+    background-color:#FFFFFF; 
+    font-family:"Courier New", Courier, monospace;
+}
+.blancos {
+    position:absolute;
+    left: 0px; 
+    top: 0px; 
+    border:none; 
+    margin: 5px; 
+    padding: 5px; 
+    color:#006; 
+    background-color: white; 
+    font-family:"Courier New",Courier, monospace; 
+    text-decoration:underline; 
+    color: black; 
+    font-size:24px;
+}
+h1{
+    text-align: center;
+    font-family: fantasy;
+    color: #000;
+}
+input{
+    position:absolute;
+    left: 680px; 
+    top: 50px;
+    //display: none;
+}
